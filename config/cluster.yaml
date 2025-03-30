@@ -1,0 +1,7 @@
+pointcloud_cluster:
+  ros__parameters:
+    input_topic: "/velodyne_points"
+    output_topic: "/clustered_cloud"
+    cluster_tolerance: 0.3
+    min_cluster_size: 100
+    max_cluster_size: 25000

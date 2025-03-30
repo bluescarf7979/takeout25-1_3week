@@ -1,0 +1,5 @@
+pointcloud_voxel:
+  ros__parameters:
+    input_topic: "/velodyne_points"
+    output_topic: "/voxel"
+    voxel_size: 0.2

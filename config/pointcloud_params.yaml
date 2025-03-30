@@ -1,0 +1,24 @@
+pointcloud_cluster:
+  ros__parameters:
+    input_topic: "/voxel_downsampled_cloud"
+    output_topic: "/clustered_cloud"
+    cluster_tolerance: 0.5
+    min_cluster_size: 10
+    max_cluster_size: 100
+
+pointcloud_voxel:
+  ros__parameters:
+    input_topic: "/roi_cloud"
+    output_topic: "/voxel_downsampled_cloud"
+    voxel_size: 0.15
+
+pointcloud_roi:
+  ros__parameters:
+    input_topic: "/velodyne_points"
+    output_topic: "/roi_cloud"
+    x_min: -10.0
+    x_max: 10.0
+    y_min: -10.0
+    y_max: 10.0
+    z_min: 0.0
+    z_max: 2.0
