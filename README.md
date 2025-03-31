@@ -44,7 +44,7 @@ ros2 pkg list | grep takeout3week
 # rosbag 및 rviz 실행
 ros2 launch takeout3week lidar_bag_rviz.launch.py
 
-# rosbag 및 voxel 실행
+# rosbag 및 cluster 실행
 ros2 launch takeout3week cluster.launch.py
 
 # rosbag 및 voxel 실행
