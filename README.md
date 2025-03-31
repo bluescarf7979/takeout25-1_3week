@@ -1,4 +1,13 @@
 # takeout25-1_3week
+
+```bash
+# 0. 단축어 설정
+echo "alias cs='cd ~/ws/src'" >> ~/.bashrc
+echo "alias cw='cd ~/ws'" >> ~/.bashrc
+echo "alias cb='cd ~/ws && colcon build && source install/setup.bash'" >> ~/.bashrc
+source ~/.bashrc
+```
+
 ```bash
 # 1. 환경설정
 sudo apt update
