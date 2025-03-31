@@ -29,11 +29,27 @@ ros2 pkg list | grep takeout3week
  ┃ ┣ 📜 pointcloud_cluster.py
  ┃ ┣ 📜 pointcloud_roi.py
  ┃ ┗ 📜 pointcloud_voxel.py
- ┣ 📂 takeout3week
+ ┣ 📂 config
  ┃ ┣ 📜 cluster.yaml
  ┃ ┣ 📜 roi.yaml
  ┃ ┣ 📜 voxel.yaml
  ┃ ┣ 📜 pointcloud_params.yaml
  ┣ 📜 README.md
  ┗ 📜 requirements.txt
+```
+
+```bash
+# 3. 코드 실행
+
+# rosbag 및 rviz 실행
+ros2 launch takeout3week lidar_bag_rviz.launch.py
+
+# rosbag 및 voxel 실행
+ros2 launch takeout3week cluster.launch.py
+
+# rosbag 및 voxel 실행
+ros2 launch takeout3week voxel.launch.py
+
+# rosbag 및 roi 실행
+ros2 launch takeout3week roi.launch.py
 ```
