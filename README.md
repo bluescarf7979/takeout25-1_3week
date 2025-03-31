@@ -52,4 +52,7 @@ ros2 launch takeout3week voxel.launch.py
 
 # rosbag 및 roi 실행
 ros2 launch takeout3week roi.launch.py
+
+# 전체 실행
+ros2 launch takeout3week pointcloud_processing.launch.py
 ```
