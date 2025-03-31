@@ -2,6 +2,7 @@
 ```bash
 # 1. 환경설정
 sudo apt update
+sudo apt install python3-pip
 sudo apt install git
 pip install open3d scikit-learn
 sudo apt install ros-humble-sensor-msgs-py
