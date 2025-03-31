@@ -22,7 +22,6 @@ sudo apt install ros-humble-sensor-msgs-py
 cs
 git clone https://github.com/bluescarf7979/takeout3week.git
 cb
-source install/setup.bash
 
 ros2 pkg list | grep takeout3week
 ```
