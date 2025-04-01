@@ -1,4 +1,5 @@
 # takeout25-1_3week
+https://drive.google.com/file/d/14Vk9Hf1qeFQexdE45aPBasvfFrqzxzb2/view?usp=drive_link
 
 ```bash
 # 0. 단축어 설정
