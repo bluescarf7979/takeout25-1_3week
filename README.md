@@ -93,7 +93,7 @@ sudo make install
 ```bash
 # YDLiDAR ROS2 패키지 설치
 cs
-git clone https://github.com/YDLIDAR/ydlidar_ros2_driver.git
+git clone -b humble https://github.com/YDLIDAR/ydlidar_ros2_driver.git
 cb
 ```
 ```bash
