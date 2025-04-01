@@ -98,5 +98,7 @@ cb
 ```
 ```bash
 # YDLiDAR 실행
-ros2 launch takeout3week yd_lidar.launch.py
+# launch parameter 바꾸기
+sudo chmod 777 /dev/tty*
+ros2 launch ydlidar_ros2_driver ydlidar_launch.py
 ```
