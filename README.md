@@ -100,5 +100,5 @@ cb
 # YDLiDAR 실행
 # launch parameter 바꾸기
 sudo chmod 777 /dev/tty*
-ros2 launch ydlidar_ros2_driver ydlidar_launch.py
+ros2 launch ydlidar_ros2_driver ydlidar_launch_view.py
 ```
