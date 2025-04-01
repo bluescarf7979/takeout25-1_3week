@@ -47,6 +47,11 @@ ros2 pkg list | grep takeout3week
  ┣ 📜 README.md
  ┗ 📜 requirements.txt
 ```
+```bash
+# numpy and pandas setting
+pip install numpy==1.21.5
+pip install pandas==1.3.3
+```
 
 ```bash
 # 3. 코드 실행
