@@ -65,3 +65,32 @@ ros2 launch takeout3week roi.launch.py
 # 전체 실행
 ros2 launch takeout3week pointcloud_processing.launch.py
 ```
+---
+---
+## YD LiDAR 실습
+```bash
+# 종속성 설치
+sudo apt install cmake pkg-config
+sudo apt-get install python swig
+sudo apt-get install python-pip
+```
+```bash
+# YDLiDAR SDK 설치
+cd
+git clone https://github.com/YDLIDAR/YDLidar-SDK.git
+mkdir YDLidar-SDK/build
+cd YDLidar-SDK/build
+cmake ..
+make
+sudo make install
+```
+```bash
+# YDLiDAR ROS2 패키지 설치
+cs
+https://github.com/YDLIDAR/ydlidar_ros2_driver.git
+cb
+```
+```bash
+# YDLiDAR 실행
+ros2 launch takeout3week yd_lidar.launch.py
+```
